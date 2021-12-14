@@ -1,0 +1,17 @@
+<!-- ko if: initialized() && $data.hasOwnProperty('shop_card_sahil') -->
+
+<div id="category-card-sahil">
+    <div class="category-card-element" data-bind="click: jumpTOPage.bind($elementInstance, $elementInstance.config.image.link) ">
+        <img data-bind="ccResizeImage: {
+                    source: $elementInstance.config.image.src,
+                    alt: $elementInstance.config.image.altText,
+                    errorSrc: '/file/general/nopic.jpg',
+                    errorAlt: 'Image not found'
+                }
+                ">
+        <div class="shop_card_text">
+            <p data-bind="text:$elementInstance.config.image.titleText"></p>
+        </div>
+    </div>
+</div>
+<!-- /ko -->

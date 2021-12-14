@@ -1,0 +1,28 @@
+{
+    "availableToAllWidgets": false,
+    "configOptions": [
+        "image",
+        "textBox",
+        "preview"
+    ],
+    "global": false,
+    "inline": false,
+    "previewText": "shop_card_sahil",
+    "supportedWidgetType": [
+        "oeAssignment6Sahil"
+    ],
+    "tag": "shop_card_sahil",
+    "translations": [{
+            "language": "en",
+            "title": "shop_card_sahil",
+            "description": "This is a generic element"
+        },
+        {
+            "language": "pt_BR",
+            "title": "shop_card_sahil",
+            "description": "Elemento genérico"
+        }
+    ],
+    "type": "fragment",
+    "version": 1
+}

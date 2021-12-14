@@ -1,0 +1,19 @@
+<!-- oeES6Widget -->
+<div id="oeAssignment6Sahil" data-oc-id="oeAssignment6SahilTemplateRegion">
+    <div class="shop_container">
+        <div class="shop_container_heading">
+            <h3>Shop By Category</h3>
+        </div>
+        <div class="shop_card_container">
+            <!-- oc layout: panels -->
+            <div class="row">
+                <div class="oc-panel col-md-12" data-oc-id="panel-1">
+                    <!-- oc section: category-card-sahil -->
+                    <div data-bind="element: 'category-card-sahil'"></div>
+                    <!-- /oc -->
+                </div>
+            </div>
+            <!-- /oc -->
+        </div>
+    </div>
+</div>
