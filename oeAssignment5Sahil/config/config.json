@@ -1,0 +1,11 @@
+{
+    "widgetDescriptorName": "OE ES6 Widget",
+    "properties": [{
+        "id": "collectionItem",
+        "type": "collectionType",
+        "name": "collectionPickerValue",
+        "helpTextResourceId": "collectionPickerValueHelpText",
+        "labelResourceId": "collectionPickerValueLabel",
+        "maxLength": 4
+    }]
+}
