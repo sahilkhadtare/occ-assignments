@@ -1,0 +1,52 @@
+<!-- oeES6Widget -->
+<div id="oeAssignment3Sahil">
+    <div class="shop_container">
+        <div class="shop_container_heading">
+            <p class="shop_heading_text">Shop By Category</p>
+        </div>
+        <div class="shop_card_container">
+            <div class="shop_card">
+                <div class="shop_card_image">
+                    <img data-bind="ccResizeImage: {
+                        source:'file/general/devices.png',
+                        alt:'Devices Image',
+                        errorSrc: '/file/general/nopic.jpg',
+                        errorAlt: 'Image not found'
+                    }
+                    ">
+                </div>
+                <div class="shop_card_text">
+                    <p>DEVICES</p>
+                </div>
+            </div>
+            <div class="shop_card">
+                <div class="shop_card_image">
+                    <img data-bind="ccResizeImage: {
+                        source:'file/general/accessories.png',
+                        alt: 'Accessories Image',
+                        errorSrc: '/file/general/nopic.jpg',
+                        errorAlt: 'Image not found'
+                    }
+                    ">
+                </div>
+                <div class="shop_card_text">
+                    <p>ACCESSORIES</p>
+                </div>
+            </div>
+            <div class="shop_card">
+                <div class="shop_card_image">
+                    <img data-bind="ccResizeImage: {
+                        source:'file/general/softwares.png',
+                        alt: 'Softwares Image',
+                        errorSrc: '/file/general/nopic.jpg',
+                        errorAlt: 'Image not found'
+                    }
+                    ">
+                </div>
+                <div class="shop_card_text">
+                    <p>SOFTWARES</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
