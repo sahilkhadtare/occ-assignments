@@ -1,0 +1,55 @@
+/* ---------------------------------------------------------------------- */
+/*  OE Generic Widget Styles                                              */
+/* ---------------------------------------------------------------------- */
+
+#oeAssignment1Sahil {
+    width: 100%;
+
+    .hero_container {
+        padding: 5% 15%;
+        background: #000;
+        width: 100%;
+
+        .hero_text {
+            font-size: 16px;
+
+            .hero_text-1 {
+                color: #fff;
+                font-weight: 1000;
+            }
+
+            .hero_text-2 {
+                color: #ccc;
+                font-weight: 100;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .hero_text {
+                font-size: 10px;
+            }
+        }
+
+        .hero_image_container {
+            display: flex;
+            gap: 7px;
+            width: 100%;
+
+            .hero_image_box {
+                background: #fff;
+                width: 100%;
+
+                #cc_img__resize_wrapper {
+                    height: 100% !important;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .hero_image {
+                        width: 80%;
+                    }
+                }
+            }
+        }
+    }
+}
