@@ -1,0 +1,14 @@
+<!-- oeES6Widget -->
+<div id="oeAssignment4Sahil">
+    <div class="brand_container">
+        <p class="hero_text"><span class="hero_text-1">OUR</span><span class="hero_text-2"> BRANDS</span></p>
+        <div class="brand_image_container" data-bind="foreach:dataArray">
+            <div class="brand_card">
+                <div class="brand_name_container">
+                    <p class="brand_name" data-bind="text:displayName"></p>
+                </div>
+                <img class="Brand_image" data-bind="ccResizeImage: {source:filePath,alt:displayName,errorSrc:'images/noImage.png',errorAlt:'No Image Found'}" />
+            </div>
+        </div>
+    </div>
+</div>
