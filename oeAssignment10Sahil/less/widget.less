@@ -1,0 +1,76 @@
+/*  OE Generic Widget Styles
+/* ---------------------------------------------------------------------- */
+
+#SahilAssignment10 {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: aqua;
+    @media screen and (max-width:500px) {
+        .heading-text
+        {
+            font-size: 22px;
+        }
+    }
+    .container-box
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .convertButton {
+            padding: 10px 60px;
+        }
+    
+        .amount-box {
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+        }
+    
+        #AmountNumber  {
+            padding: 8px 30px;
+        }
+    
+        label {
+            font-size: 18px;
+            margin: 0 0 0 20px;
+        }
+    
+        div {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        @media screen and (max-width:600px ){
+            div
+            {
+                flex-direction: column;
+                label
+                {
+                    align-self: flex-start;
+                }
+                select
+                {
+                    width: 100%;
+                }
+                #AmountNumber {
+                    width: 100%;
+                }
+            } 
+        }
+        select {
+            padding: 10px 50px;
+        }
+    
+        .ConvertAmount {
+            font-size: 18px;
+            width: 100%;
+            text-align: center;
+        }
+    }
+}

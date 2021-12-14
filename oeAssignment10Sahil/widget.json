@@ -1,0 +1,13 @@
+{
+  "name": "oeAssignment10Sahil",
+  "widgetType": "oeAssignment10Sahil",
+  "i18nresources": "oeAssignment10Sahil",
+  "javascript": "oeAssignment10Sahil",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}
