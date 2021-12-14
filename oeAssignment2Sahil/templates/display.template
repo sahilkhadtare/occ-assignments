@@ -1,0 +1,71 @@
+<!-- oeES6Widget -->
+
+<div id="oeAssignment2Sahil">
+    <div class="greenball_container">
+        <div class="greenball_text_container">
+            <p class="greenball_text"><span class="greenball_text-1"> GREENBALL</span> <span class="greenball_text-2"> PRODUCTS </span></p>
+            <p class="greenball_desc">
+                For over fourty years we've dedicated overselves to meeting our customer's needs and demands. By offering a wide selection of tire products accompanied with efficient and friendly service, Greenball has proven to be a reliable business partner for customers
+                at the retail, wholesale and OEM levels.
+            </p>
+        </div>
+        <div class="greenball_image_container">
+            <div class="greenball_product_card">
+                <div class="greenball_product_text">
+                    <p class="greenball_product_heading">TRAILER</p>
+                </div>
+                <div class="Image_effect"></div>
+                <img class="greenball_product_image" src="file/collections/trailer.png" alt="Trailer Image">
+            </div>
+            <div class="greenball_product_card">
+                <div class="greenball_product_text">
+                    <p class="greenball_product_heading">LIGHT TRUCK</p>
+                </div>
+                <div class="Image_effect"></div>
+                <img class="greenball_product_image" src="file/collections/lightTruck.png" alt="Light Truck Image">
+            </div>
+            <div class="greenball_product_card">
+                <div class="greenball_product_text">
+                    <p class="greenball_product_heading">MOBILE HOME</p>
+                </div>
+                <div class="Image_effect"></div>
+                <img class="greenball_product_image" src="file/collections/mobile.png" alt="Mobile Home Image">
+            </div>
+            <div class="greenball_product_card">
+                <div class="greenball_product_text">
+                    <p class="greenball_product_heading">LAWN & GARDEN</p>
+                </div>
+                <div class="Image_effect"></div>
+                <img class="greenball_product_image" src="file/collections/lawnGarden.png" alt="Lawn & Garden Image">
+            </div>
+            <div class="greenball_product_card">
+                <div class="greenball_product_text">
+                    <p class="greenball_product_heading">FARM & INDUSTRIAL</p>
+                </div>
+                <div class="Image_effect"></div>
+                <img class="greenball_product_image" src="file/collections/farmIndustrial.png" alt="Farm and Industrial Image">
+            </div>
+            <div class="greenball_product_card">
+                <div class="greenball_product_text">
+                    <p class="greenball_product_heading">GOLF CART</p>
+                </div>
+                <div class="Image_effect"></div>
+                <img class="greenball_product_image" src="file/collections/golfCart.png" alt="Golf Cart Image">
+            </div>
+            <div class="greenball_product_card">
+                <div class="greenball_product_text">
+                    <p class="greenball_product_heading">ATV & UTV</p>
+                </div>
+                <div class="Image_effect"></div>
+                <img class="greenball_product_image" src="file/collections/atv_utv.png" alt="ATV and UTV Image">
+            </div>
+            <div class="greenball_product_card">
+                <div class="greenball_product_text">
+                    <p class="greenball_product_heading">WHEELS & ACCESSORIES</p>
+                </div>
+                <div class="Image_effect"></div>
+                <img class="greenball_product_image" src="file/collections/wheels_accessories.png" alt="Wheels and Accessories Image">
+            </div>
+        </div>
+    </div>
+</div>
