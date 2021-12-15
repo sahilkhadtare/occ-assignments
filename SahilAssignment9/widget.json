@@ -1,0 +1,13 @@
+{
+  "name": "SahilAssignment9",
+  "widgetType": "SahilAssignment9",
+  "i18nresources": "SahilAssignment9",
+  "javascript": "SahilAssignment9",
+  "availableToAllPages": true,
+  "global": false,
+  "globalEnabled": false,
+  "version": 1,
+  "jsEditable": true,
+  "imports": [],
+  "config": {}
+}
