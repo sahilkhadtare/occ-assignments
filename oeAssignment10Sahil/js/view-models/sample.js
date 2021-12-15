@@ -35,15 +35,17 @@ export class Sample extends BaseWidget {
             let value1 = document.getElementById("baseCurrency").value;
             let value2 = document.getElementById("convertCurrency").value;
             var am = document.querySelector('#AmountNumber').value;
-            console.log(am)
-            console.log(value1)
-            console.log(value2)
-            var data = {
-                "amount": am,
-                "baseCurrency": value1,
-                "convertCurrency": value2
+            if (value1 !== value2) {
+                var data = {
+                    "amount": am,
+                    "baseCurrency": value1,
+                    "convertCurrency": value2
+                }
+                appLevel.ApplevelSahil.convertCurrency(widget, data);
+            } else {
+                console.log("You selected both base Currency and converted Currency are same");
+                alert("You selected both base Currency and converted Currency are same.Please Change any one");
             }
-            appLevel.ApplevelSahil.convertCurrency(widget, data);
         };
         console.log('[BEFORE APPEAR] Sample');
     }
