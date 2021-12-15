@@ -30,32 +30,25 @@ export class Sample extends BaseWidget {
 
     @exportToViewModel dataArray = ko.observableArray([]);
     @exportToViewModel gotoCollectionpage(path) {
-        window.open(path);
+        window.open(path, '_blank');
     }
     beforeAppear() {
 
         let data = {};
+        let widget = this.$data;
         data[ccConstants.CATEGORY_IDS] = this.$data.collectionItem();
         ccRestClient.request(
             ccConstants.ENDPOINT_LIST_COLLECTIONS,
             data,
             (response) => {
                 response.map(data => {
-                    console.log("sahil", data);
-                    this.dataArray.push(new dataObject(data.displayName, `/file${data.categoryImages[0].path}`, data.route))
+                    widget.dataArray.push(new dataObject(data.displayName, `/file${data.categoryImages[0].path}`, data.route))
 
                 });
             },
             (error) => { console.log("Im error", error) }
         );
         console.log('[BEFORE APPEAR] Sample');
-        var images = document.getElementsByClassName("brand_card");
-        for (let i = 0; i < images.length; i++) {
-            var image = images[i];
-            image.onclick = function(event) {
-                window.open(dataArray.route);
-            };
-        }
 
     }
 
