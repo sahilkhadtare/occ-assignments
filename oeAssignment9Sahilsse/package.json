@@ -1,0 +1,57 @@
+{
+  "author": "Object Edge",
+  "config": {
+    "port": "3000"
+  },
+  "description": "oeAssignment9Sahil",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "tunnel": "0.0.6"
+  },
+  "devDependencies": {
+    "body-parser": "1.18.3",
+    "express": "4.16.4",
+    "fs-extra": "7.0.1",
+    "gulp": "^4.0.2",
+    "gulp-jasmine": "^4.0.0",
+    "jasmine": "^3.4.0",
+    "jest": "^24.8.0",
+    "moment": "2.24.0",
+    "nconf": "0.10.0",
+    "winston": "3.2.1"
+  },
+  "license": "SEE LICENSE IN LICENSE.TXT",
+  "main": "/app/index.js",
+  "name": "oeAssignment9Sahil",
+  "publicUrls": [
+    "/ccstorex/custom/v1/hello",
+    "/ccstorex/custom/v1/jsonPlaceholder/users"
+  ],
+  "authenticatedUrls": [
+    {
+      "url": "/ccstorex/custom/v1/versions",
+      "method": [
+        "get"
+      ]
+    }
+  ],
+  "scripts": {
+    "start": "node ./build/scripts/runLocalServer",
+    "dev": "jest --watch",
+    "test:unit": "jest",
+    "test:integration": "gulp --cwd . --gulpfile ./build/gulpfile.js test:integration"
+  },
+  "translations": [
+    {
+      "description": "oeAssignment9Sahil",
+      "language": "en",
+      "name": "oeAssignment9Sahil"
+    },
+    {
+      "description": "oeAssignment9Sahil",
+      "language": "pt_BR",
+      "name": "oeAssignment9Sahil"
+    }
+  ],
+  "version": "0.1.0"
+}

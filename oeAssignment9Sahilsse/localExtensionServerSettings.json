@@ -1,0 +1,11 @@
+{
+  "atg.application.credentials": {
+    "atg.application.id": "[appIdFromOccEnvPanel]",
+    "atg.application.token": "[appTokenFromOccEnvPanel",
+    "atg.application.name": "WWW_CUSTOM"
+  },
+  "atg.hmac.secret": "UmsZXnLVEcPAAGXyx0uO2WhNhBOSYeQq26JEOe2VsRBv5ZMF1Hby3N7uQn3M41F1ipMdT2xjfLeaW8hTfRFOkQ==",
+  "atg.server.admin.url": "https://ccadmin-[customerTenantId].oracleoutsourcing.com",
+  "atg.server.agent.url": "https://ccadmin-[customerTenantId].oracleoutsourcing.com",
+  "atg.server.url": "https://ccstore-[customerTenantId].oracleoutsourcing.com"
+}
